@@ -1,0 +1,153 @@
+body{
+    background: #F2F2F2;
+}
+
+.blog-header{
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+}
+
+.blog-header--badge{
+    background: #D9D9D9;
+    border-radius: 5px;
+    display: inline-block;
+    padding-inline: 18px;
+
+    /* font-family: 'Axiforma'; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 1px;
+
+}
+
+.blog-header--title{
+    /* font-family: 'Axiforma'; */
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: 1.2px;
+   color: #394247;
+}
+
+.blog-header--subtitle{
+    /* font-family: 'Axiforma'; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #303030;
+}
+
+.line{
+    height:3px; width:70px; border-width:0; color:#FE1300; background-color:#FE1300;
+}
+
+
+/* blog listing  */
+
+.blog-list{
+    border-top: none;
+    padding-block-start: 40px;
+    padding-block-end: 100px;
+}
+
+.blog-list--title{
+    /* font-family: 'Axiforma'; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 0.54px;
+    color: #000000;
+}
+
+.blogs-container{
+   padding-block-start: 60px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;   
+   gap: 53px 0px; 
+}
+
+.blog-item{
+    /* border: 1px solid red; */
+}
+
+.blog-item--image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+
+    margin-block-end: 37px;
+}
+
+.blog-item--description{
+    /* font-family: 'Axiforma'; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.298667px;
+    color: #5D5D5D;
+    
+    margin-block-end: 37px;
+    margin-block-start: 18px;
+}
+
+.blog-item--link{
+    /* font-family: 'Axiforma'; */
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: block;
+    text-align: right;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #FE1300;
+}
+
+
+
+
+@media (min-width: 768px) { 
+    .blog-header{
+        margin-block-start: 70px;
+        margin-block-end: 90px;
+
+    }
+
+    .blog-header--title{
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .blog-header--subtitle{
+        font-size: 26px;
+    }
+
+    .blog-list{
+        border-top: 1px solid #D9D9D9;
+        padding-block-start: 80px;
+        padding-block-end: 150px;
+    }
+
+    .blog-list--title{
+        font-size: 24px;
+    }
+
+    .blogs-container{
+        padding-block-start: 70px;
+        gap: 70px 0px; 
+
+    }
+
+
+    .blog-item--link{
+        text-align: left;
+    }
+    
+    
+    
+
+ }
