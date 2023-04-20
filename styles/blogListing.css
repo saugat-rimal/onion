@@ -107,8 +107,50 @@ body{
     color: #FE1300;
 }
 
+/* pagination section on blogs  */
+
+.hidden {
+    display: none;
+}
+
+i {
+    color: #FE1300;
+    font-size: 30px;
+}
+
+.pagination-container {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    padding-block-start: 70px;
+    justify-content: center;
+}
+
+.pagination-number,
+.pagination-button {
+    font-size: 16px;
+    border: none;
+    margin: 16px 16px;
+    cursor: pointer;
+    width: 31px;
+    height: 31px;
+    color: #5D5D5D;
+    background: transparent;
+}
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+    background: #fff;
+}
+
+.pagination-number.active {
+    color: #5D5D5D;
+    background: #FFFFFF;
+    border: 1px solid #FE1300;
+}
 
 
+/* media queries  */
 
 @media (min-width: 768px) { 
     .blog-header{
